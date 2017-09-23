@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Documentation</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Documentation</h1>
+        <h2>Support Currency</h2> 
+        <p>"AUD","BGN","BRL","CAD","CHF","CNY","CZK","DKK","EUR","GBP","HKD", <br>
+            "HRK","HUF","IDR","ILS","INR","JPY","KRW","MXN","MYR","NOK","NZD", <br>
+            "PHP","PLN","RON","RUB","SEK","SGD","THB","TRY","USD","ZAR"</p>
+        <h2>Example code of get the exchange rate</h2>
+        <h3>step 1: include the Exchange.php in your php file</h3>
+        <p>include "Exchange.php"; </p>
+        <h3>step 2:  Creating an instance</h3>
+        <p>$exchange = new Exchange;</p>
+        <h3>step 3: set the variable</h3>
+        <p>
+            $exchange->setCurrencyTo('currencyTo'); <br>
+            $exchange->setCurrencyFrom('currencyFrom'); <br>
+            $exchange->setQuantity('quantity');
+            
+        </p>
+        <h3>step 4: get the reslut with json format</h3>
+        <p>$result = $exchange->getResult();</p>
+
+    </body>
+</html>
