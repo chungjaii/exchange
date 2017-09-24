@@ -11,8 +11,8 @@
         $exchange = new Exchange;
 
         step 3: set the variable
-        $exchange->setCurrencyTo('currencyTo'); <br>
-        $exchange->setCurrencyFrom('currencyFrom'); <br>
+        $exchange->setCurrencyTo('currencyTo'); 
+        $exchange->setCurrencyFrom('currencyFrom'); 
         $exchange->setQuantity('quantity');
             
         step 4: get the reslut with json format
