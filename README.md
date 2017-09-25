@@ -16,7 +16,9 @@
     $exchange->setQuantity('quantity');
             
 ### step 4: get the reslut with json format
+#### Without Cache:
     $result = $exchange->getResult();
+#### With Cache:
     $result = $exchange->getCacheResult();
 
 ## Testing:
