@@ -25,6 +25,6 @@
     Run the file test-form.php
     Input the quantity, currency from and currency to.
 
-Testing with cache:
+## Testing with cache:
     Run the file test-cache.php
     Input the quantity, currency from and currency to.
